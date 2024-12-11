@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* استایل برای pagination */
+.swiper-pagination {
+  position: relative;
+  top: 0;
+}
+
+/* استایل برای دایره‌های pagination (Bullets) */
+.swiper-pagination-bullet {
+  width: 8px;                /* اندازه پیش‌فرض دایره */
+  height: 8px;               /* اندازه پیش‌فرض دایره */
+  background: rgba(0, 0, 0, 0.2); /* رنگ پس‌زمینه */
+  border-radius: 50%;        /* دایره بودن آن */
+  opacity: 1;                /* شفافیت */
+  transition: all 0.3s ease; /* انیمیشن تغییرات */
+}
+
+/* وقتی که دایره فعال می‌شود */
+.swiper-pagination-bullet-active {
+  width: 8px  ;               /* اندازه دایره فعال */
+  height: 8px;              /* اندازه دایره فعال */
+  background: #ff5023;       /* رنگ دایره فعال */
+}
+
+/* تغییر رنگ هنگام هاور */
+.swiper-pagination-bullet:hover {
+  background-color: #ff5023; /* رنگ هنگام هاور */
+}
